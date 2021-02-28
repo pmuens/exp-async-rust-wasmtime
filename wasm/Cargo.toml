@@ -1,9 +1,8 @@
 [package]
-name = "exp-async-rust-wasmtime"
+name = "wasm"
 version = "0.1.0"
 authors = ["Philipp Muens <raute1337@gmx.de>"]
 edition = "2018"
 
-[dependencies]
-wasmtime = "0.23.0"
-anyhow = "1.0.38"
+[lib]
+crate-type = ["cdylib"]
