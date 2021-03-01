@@ -6,7 +6,8 @@ edition = "2018"
 
 [dependencies]
 anyhow = "1.0.38"
-wasmtime = "0.23.0"
+futures = "0.3.13"
+wasmtime = { git = "https://github.com/bytecodealliance/wasmtime", rev = "7795a230f20c2e8bd455d33bbe02d8c00aaf3893" }
 
 [[bin]]
 name = "bin"
