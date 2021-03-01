@@ -11,6 +11,9 @@ rustup target add wasm32-unknown-unknown
 # Build WASM code
 cargo build --manifest-path ./wasm/Cargo.toml --target wasm32-unknown-unknown
 
+# Run bin
+cargo run
+
 # Run tests
 cargo test
 ```

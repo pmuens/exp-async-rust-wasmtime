@@ -5,5 +5,9 @@ authors = ["Philipp Muens <raute1337@gmx.de>"]
 edition = "2018"
 
 [dependencies]
-wasmtime = "0.23.0"
 anyhow = "1.0.38"
+wasmtime = "0.23.0"
+
+[[bin]]
+name = "bin"
+path = "src/bin.rs"
